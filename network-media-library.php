@@ -471,7 +471,7 @@ class ACF_Value_Filter {
 	 * @return mixed The updated value.
 	 */
 	public function filter_acf_attachment_format_value( $value, $post_id, array $field ) {
-		return $this->value;
+		return $value;
 	}
 }
 
